@@ -124,8 +124,8 @@ gmgn-ca-query-gui/
 │   ├── update_overview_data() # 更新概览面板
 │   ├── update_activity_data() # 更新实时交易
 │   └── show_kline_window()    # wxPython K线窗口
-├── 2.py                 # Playwright WebSocket 测试脚本（50行）
-├── 1.py                 # 无关辅助脚本
+├── websocket_test.py    # Playwright WebSocket 测试脚本（50行）
+├── blockchain_checkin.py # 区块链签到辅助脚本
 ├── assets/
 │   └── logo.svg         # 项目 Logo
 ├── LICENSE              # MIT 许可证
